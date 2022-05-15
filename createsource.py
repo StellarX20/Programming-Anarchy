@@ -1,4 +1,7 @@
-def game():
-  print("this game has nothing yet, but will! Just you wait.")
+from PIL import Image
+
+def game():                                                                                
+  img = Image.open('g.png')
+  img.show() 
 
 game()
